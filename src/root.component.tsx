@@ -1,4 +1,4 @@
-import './root.component.css'
+import "./root.component.css";
 export default function Root(props) {
   return (
     <div>
@@ -6,9 +6,8 @@ export default function Root(props) {
         <section>{props.name} is mounted!</section>
       </main>
       <footer>
-        <p>created by { props.author }</p>      
+        <p>created by {props.author}</p>
       </footer>
-
     </div>
   );
 }
